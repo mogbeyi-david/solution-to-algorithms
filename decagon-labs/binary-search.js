@@ -24,5 +24,3 @@ function binarySearch(array, value) {
     count: 0
   };
 }
-
-console.log(binarySearch([2], 2));
