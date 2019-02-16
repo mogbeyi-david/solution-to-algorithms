@@ -1,6 +1,7 @@
 function sumNumbers(string) {
   let stringOfNumbers = '';
   let dotTracker = 0;
+  let sum = 0;
   for (let index = 0; index < string.length; index++) {
     let currentCharacter = string[index];
     if (isNumber(currentCharacter)) {
@@ -11,7 +12,6 @@ function sumNumbers(string) {
       dotTracker++;
     }
   }
-  let sum = 0;
   stringOfNumbers.split('.').map(function (value) {
     if (isNumber(value)) {
       sum += parseInt(value)
