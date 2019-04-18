@@ -15,4 +15,3 @@ function maxOccurrence(decimalNumber) {
   return Math.max(...occurrences);
 }
 
-console.log(maxOccurrence(-200));

@@ -7,4 +7,4 @@ function wordCount(arrayOfStrings) {
   return result;
 }
 
-console.log(wordCount([1, 1, 1, 2, 2, 2, 5, 7, 8, 1, '1', '1']));
+

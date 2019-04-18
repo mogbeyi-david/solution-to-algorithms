@@ -6,4 +6,3 @@ function pair(array) {
   return result;
 }
 
-console.log(pair(['me', 'you', 'us', 'them']));
