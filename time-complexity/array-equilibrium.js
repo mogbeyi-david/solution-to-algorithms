@@ -3,7 +3,6 @@ function solution(array) {
   let difference;
   for (let index = 1; index < array.length; index++) {
     difference = splitAndAdd(array, index);
-    console.log(difference);
   }
   minDifference < difference ? minDifference += 0 : minDifference = difference;
   return minDifference;
