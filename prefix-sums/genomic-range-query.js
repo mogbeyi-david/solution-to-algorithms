@@ -1,16 +1,17 @@
-function solution(dnaSequence, firstQueryPoints, secondQueryPoints) {
-  const minimalImpactFactors = [];
-  for (let index = 0; index < firstQueryPoints.length; index++) {
-    const firstPoint = firstQueryPoints[index];
-    const secondPoint = secondQueryPoints[index];
-    const rangeOfInterest = getRange(dnaSequence, firstPoint, secondPoint);
-  }
-}
+const solution = (string, P, Q) => {
+    let result = [];
+    let nucleotides = ["A", "C", "G", "T"];
 
-function getRange(dnaSequence, lengthOfQuery) {
-  for (let index = 0; index < lengthOfQuery; index++) {
-    const firstPoint = lengthOfQuery[index];
-    const secondPoint = lengthOfQuery[index];
-    const rangeOfInterest = getRange(dnaSequence, firstPoint, secondPoint);
-  }
-}
+    for (let index = 0; index < P.length; index++) {
+        let slice = string.slice(parseInt(P[index]), parseInt(Q[index]) + 1);
+        for (let index = 0; index < 4; index++) {
+            if (slice.indexOf(nucleotides[index]) !== -1) {
+                result.push(index + 1);
+                break;
+            }
+        }
+    }
+    console.log(result)
+};
+
+solution("CAGCCTA", [2, 5, 0], [4, 5, 6]);
