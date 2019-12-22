@@ -15,4 +15,4 @@ function solution(array) {
   return result;
 }
 
-console.log(solution([0, 1, 0, 1, 1]));
+console.log(solution([0, 0, 1, 0, 1, 1, 1]));
