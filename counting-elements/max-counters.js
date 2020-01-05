@@ -1,3 +1,16 @@
+function increase(array, index) {
+  array[index]++;
+  return array;
+}
+
+function maxCounter(array) {
+  const maximum = Math.max(...array);
+  for (let index = 0; index < array.length; index++) {
+    array[index] = maximum;
+  }
+  return array;
+}
+
 function solution(number, array) {
   let counters = [];
   for (let i = 0; i < number; i++) { //Build counters array
@@ -18,16 +31,3 @@ function solution(number, array) {
 }
 
 console.log(solution(5, [3, 4, 4, 6, 1, 4, 4]));
-
-function increase(array, index) {
-  array[index]++;
-  return array;
-}
-
-function maxCounter(array) {
-  const maximum = Math.max(...array);
-  for (let index = 0; index < array.length; index++) {
-    array[index] = maximum;
-  }
-  return array;
-}
