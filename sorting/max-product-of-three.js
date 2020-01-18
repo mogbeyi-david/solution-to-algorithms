@@ -9,4 +9,4 @@ const solution = (array) => {
     return Math.max(productOfLastThreeElements, productOfLastTwoAndFirst, productOfLastAndFirstTwo);
 };
 
-console.log(solution([3, 2, 1, 10, -5, -6, -20]))
+console.log(solution([3, 2, 1, 10, -5, -6, -20]));

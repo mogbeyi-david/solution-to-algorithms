@@ -1,6 +1,8 @@
 function solution(number) {
 
-    if (number === 0) return "0";
+    if (number === 0) {
+        return "0";
+    }
 
 
     let converted = "";
@@ -19,3 +21,4 @@ function solution(number) {
 }
 
 console.log(solution(-39));
+
