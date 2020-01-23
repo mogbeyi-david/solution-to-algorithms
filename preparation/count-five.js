@@ -26,3 +26,5 @@ function solution(array, integer) {
 
     return -1
 }
+
+console.log(solution([5, 5, 2, 5, 1, 1], 5))
