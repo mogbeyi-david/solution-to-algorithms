@@ -1,0 +1,24 @@
+{
+  "name": "solution-to-algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sandbox.js",
+  "dependencies": {
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mogbeyi-david/solution-to-algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mogbeyi-david/solution-to-algorithms/issues"
+  },
+  "homepage": "https://github.com/mogbeyi-david/solution-to-algorithms#readme"
+}
